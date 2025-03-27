@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="main.java.com.legrey.eva2_1_exa_prac">
+  <ClassDiagramComponents>
+    <Class name="EVA2_1_EXA_PRAC" package="com.legrey.eva2_1_exa_prac" visibility="public" xPosition="54.0" yPosition="45.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TestCovid" package="com.legrey.eva2_1_exa_prac" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="edad" type="int" visibility="private"/>
+        <Field name="tieneEnfermedad" type="boolean" visibility="private"/>
+        <Field name="peso" type="int" visibility="private"/>
+        <Field name="estatura" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="edad"/>
+          <Argument type="boolean" name="tieneEnfermedad"/>
+          <Argument type="int" name="peso"/>
+          <Argument type="int" name="estatura"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getEdad" returnType="int" visibility="public"/>
+        <Method name="setEdad" returnType="void" visibility="public">
+          <Argument type="int" name="edad"/>
+        </Method>
+        <Method name="getTieneEnfermedad" returnType="boolean" visibility="public"/>
+        <Method name="setTieneEnfermedad" returnType="void" visibility="public">
+          <Argument type="boolean" name="tieneEnfermedad"/>
+        </Method>
+        <Method name="getPeso" returnType="int" visibility="public"/>
+        <Method name="setPeso" returnType="void" visibility="public">
+          <Argument type="int" name="peso"/>
+        </Method>
+        <Method name="getEstatura" returnType="int" visibility="public"/>
+        <Method name="setEstatura" returnType="void" visibility="public">
+          <Argument type="int" name="estatura"/>
+        </Method>
+        <Method name="calcularIMC" returnType="double" visibility="private"/>
+        <Method name="calcularPersonaRiesgo" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
